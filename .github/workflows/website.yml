@@ -36,7 +36,7 @@ jobs:
           output: ./build/website/demo/index.html
 
       - name: Build Container
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         env:
           VERSION: 'latest'
         with:
